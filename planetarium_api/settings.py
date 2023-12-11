@@ -21,6 +21,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework_simplejwt",
     "rest_framework",
+    "rest_framework_swagger",
+    "drf_spectacular",
     "planetarium",
 ]
 
@@ -85,6 +87,7 @@ REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
         "rest_framework_simplejwt.authentication.JWTAuthentication",
     ),
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
 }
 
 LANGUAGE_CODE = "en-us"

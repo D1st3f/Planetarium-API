@@ -1,4 +1,5 @@
 from django.db.models import Count, F
+from drf_spectacular.utils import extend_schema, OpenApiParameter
 from rest_framework import viewsets
 from rest_framework.pagination import PageNumberPagination
 
@@ -103,6 +104,25 @@ class ShowSessionViewSet(viewsets.ModelViewSet):
         if self.action == "retrieve":
             return ShowSessionDetailSerializer
         return self.serializer_class
+
+    @extend_schema(
+        parameters=[
+            OpenApiParameter(
+                name="astronomy_show",
+                type={"type": "list", "items": {"type": "number"}},
+                description="Filter by Astronomy Show id ("
+                "astronomy_show=1,2)",
+            ),
+            OpenApiParameter(
+                name="planetarium_dome",
+                type={"type": "list", "items": {"type": "number"}},
+                description="Filter by Planetarium Dome id ("
+                "planetarium_dome=1,2)",
+            ),
+        ]
+    )
+    def list(self, request, *args, **kwargs):
+        return super().list(request, *args, **kwargs)
 
 
 class PlanetariumDomeViewSet(viewsets.ModelViewSet):
