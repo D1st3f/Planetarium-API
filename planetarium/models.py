@@ -1,7 +1,7 @@
 from django.contrib.auth.models import User
-from django.core.exceptions import ValidationError
 from django.db import models
 from django.utils import timezone
+from rest_framework.exceptions import ValidationError
 
 
 class ShowTheme(models.Model):
@@ -18,7 +18,8 @@ class AstronomyShow(models.Model):
     title = models.CharField(max_length=100, unique=True)
     description = models.TextField()
     show_theme = models.ManyToManyField(
-        "ShowTheme", related_name="astronomy_show"
+        "ShowTheme",
+        related_name="astronomy_shows",
     )
 
     class Meta:
@@ -30,8 +31,8 @@ class AstronomyShow(models.Model):
 
 class PlanetariumDome(models.Model):
     name = models.CharField(max_length=100, unique=True)
-    rows = models.IntegerField()
-    seats_in_row = models.IntegerField()
+    rows = models.PositiveIntegerField()
+    seats_in_row = models.PositiveIntegerField()
 
     class Meta:
         ordering = ["name"]
@@ -45,9 +46,14 @@ class PlanetariumDome(models.Model):
 
 
 class ShowSession(models.Model):
-    astronomy_show = models.ForeignKey(AstronomyShow, on_delete=models.CASCADE)
+    astronomy_show = models.ForeignKey(
+        AstronomyShow, on_delete=models.CASCADE, related_name="show_sessions"
+    )
     planetarium_dome = models.ForeignKey(
-        PlanetariumDome, on_delete=models.SET_NULL, null=True
+        PlanetariumDome,
+        on_delete=models.SET_NULL,
+        null=True,
+        related_name="show_sessions",
     )
     show_time = models.DateTimeField()
 
@@ -64,7 +70,9 @@ class ShowSession(models.Model):
 
 class Reservation(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    user = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name="reservations"
+    )
 
     class Meta:
         ordering = ["-created_at"]
@@ -79,9 +87,14 @@ class Reservation(models.Model):
 class Ticket(models.Model):
     row = models.IntegerField()
     seat = models.IntegerField()
-    show_session = models.ForeignKey(ShowSession, on_delete=models.CASCADE)
+    show_session = models.ForeignKey(
+        ShowSession, on_delete=models.CASCADE, related_name="tickets"
+    )
     reservation = models.ForeignKey(
-        Reservation, on_delete=models.SET_NULL, null=True
+        Reservation,
+        on_delete=models.SET_NULL,
+        null=True,
+        related_name="tickets",
     )
 
     class Meta:
