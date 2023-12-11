@@ -54,6 +54,64 @@ class AstronomyShowViewSet(viewsets.ModelViewSet):
         return self.serializer_class
 
 
+class ReservationViewSet(viewsets.ModelViewSet):
+    queryset = Reservation.objects.all()
+    serializer_class = ReservationSerializer
+    pagination_class = OrderPagination
+    permission_classes = (IsAdminOrIfAuthenticatedEditOnly,)
+
+    def get_serializer_class(self):
+        if self.action == "retrieve":
+            return ReservationDetailSerializer
+        return self.serializer_class
+
+    def get_queryset(self):
+        queryset = Reservation.objects.filter(user=self.request.user)
+        if self.action in ["list", "retrieve"]:
+            queryset = queryset.prefetch_related(
+                "tickets__show_session__astronomy_show",
+                "tickets__show_session__planetarium_dome",
+            )
+        return queryset
+
+    def perform_create(self, serializer):
+        serializer.save(user=self.request.user)
+
+
+class TicketViewSet(viewsets.ModelViewSet):
+    queryset = Ticket.objects.all()
+    serializer_class = TicketSerializer
+    pagination_class = OrderPagination
+    permission_classes = (IsAdminOrIfAuthenticatedEditOnly,)
+
+    def get_queryset(self):
+        queryset = Ticket.objects.filter(reservation__user=self.request.user)
+
+        if self.action in ["list", "retrieve"]:
+            queryset = queryset.select_related(
+                "show_session__astronomy_show",
+            )
+
+        return queryset
+
+    def get_serializer_class(self):
+        if self.action == "retrieve":
+            return TicketDetailSerializer
+        if self.action == "list":
+            return TicketListSerializer
+        return self.serializer_class
+
+    def perform_create(self, serializer):
+        reservation = Reservation.objects.create(user=self.request.user)
+        serializer.save(reservation=reservation)
+
+
+class PlanetariumDomeViewSet(viewsets.ModelViewSet):
+    queryset = PlanetariumDome.objects.all()
+    serializer_class = PlanetariumDomeSerializer
+    permission_classes = (IsAdminOrIfAuthenticatedEditOnly,)
+
+
 class ShowSessionViewSet(viewsets.ModelViewSet):
     queryset = ShowSession.objects.all()
     serializer_class = ShowSessionSerializer
@@ -123,61 +181,3 @@ class ShowSessionViewSet(viewsets.ModelViewSet):
     )
     def list(self, request, *args, **kwargs):
         return super().list(request, *args, **kwargs)
-
-
-class PlanetariumDomeViewSet(viewsets.ModelViewSet):
-    queryset = PlanetariumDome.objects.all()
-    serializer_class = PlanetariumDomeSerializer
-    permission_classes = (IsAdminOrIfAuthenticatedEditOnly,)
-
-
-class TicketViewSet(viewsets.ModelViewSet):
-    queryset = Ticket.objects.all()
-    serializer_class = TicketSerializer
-    pagination_class = OrderPagination
-    permission_classes = (IsAdminOrIfAuthenticatedEditOnly,)
-
-    def get_queryset(self):
-        queryset = Ticket.objects.filter(reservation__user=self.request.user)
-
-        if self.action in ["list", "retrieve"]:
-            queryset = queryset.select_related(
-                "show_session__astronomy_show",
-            )
-
-        return queryset
-
-    def get_serializer_class(self):
-        if self.action == "retrieve":
-            return TicketDetailSerializer
-        if self.action == "list":
-            return TicketListSerializer
-        return self.serializer_class
-
-    def perform_create(self, serializer):
-        reservation = Reservation.objects.create(user=self.request.user)
-        serializer.save(reservation=reservation)
-
-
-class ReservationViewSet(viewsets.ModelViewSet):
-    queryset = Reservation.objects.all()
-    serializer_class = ReservationSerializer
-    pagination_class = OrderPagination
-    permission_classes = (IsAdminOrIfAuthenticatedEditOnly,)
-
-    def get_serializer_class(self):
-        if self.action == "retrieve":
-            return ReservationDetailSerializer
-        return self.serializer_class
-
-    def get_queryset(self):
-        queryset = Reservation.objects.filter(user=self.request.user)
-        if self.action in ["list", "retrieve"]:
-            queryset = queryset.prefetch_related(
-                "tickets__show_session__astronomy_show",
-                "tickets__show_session__planetarium_dome",
-            )
-        return queryset
-
-    def perform_create(self, serializer):
-        serializer.save(user=self.request.user)
