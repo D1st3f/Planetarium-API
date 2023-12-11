@@ -11,6 +11,7 @@ from planetarium.models import (
     Ticket,
     Reservation,
 )
+from planetarium.permissions import IsAdminOrIfAuthenticatedEditOnly
 
 from planetarium.serializers import (
     AstronomyShowSerializer,
@@ -37,12 +38,14 @@ class OrderPagination(PageNumberPagination):
 class ShowThemeViewSet(viewsets.ModelViewSet):
     queryset = ShowTheme.objects.all()
     serializer_class = ShowThemeSerializer
+    permission_classes = (IsAdminOrIfAuthenticatedEditOnly,)
 
 
 class AstronomyShowViewSet(viewsets.ModelViewSet):
     queryset = AstronomyShow.objects.prefetch_related("show_theme")
     serializer_class = AstronomyShowSerializer
     pagination_class = OrderPagination
+    permission_classes = (IsAdminOrIfAuthenticatedEditOnly,)
 
     def get_serializer_class(self):
         if self.action == "retrieve":
@@ -54,6 +57,7 @@ class ShowSessionViewSet(viewsets.ModelViewSet):
     queryset = ShowSession.objects.all()
     serializer_class = ShowSessionSerializer
     pagination_class = OrderPagination
+    permission_classes = (IsAdminOrIfAuthenticatedEditOnly,)
 
     @staticmethod
     def _params_to_ints(qs):
@@ -104,12 +108,14 @@ class ShowSessionViewSet(viewsets.ModelViewSet):
 class PlanetariumDomeViewSet(viewsets.ModelViewSet):
     queryset = PlanetariumDome.objects.all()
     serializer_class = PlanetariumDomeSerializer
+    permission_classes = (IsAdminOrIfAuthenticatedEditOnly,)
 
 
 class TicketViewSet(viewsets.ModelViewSet):
     queryset = Ticket.objects.all()
     serializer_class = TicketSerializer
     pagination_class = OrderPagination
+    permission_classes = (IsAdminOrIfAuthenticatedEditOnly,)
 
     def get_queryset(self):
         queryset = Ticket.objects.filter(reservation__user=self.request.user)
@@ -137,6 +143,7 @@ class ReservationViewSet(viewsets.ModelViewSet):
     queryset = Reservation.objects.all()
     serializer_class = ReservationSerializer
     pagination_class = OrderPagination
+    permission_classes = (IsAdminOrIfAuthenticatedEditOnly,)
 
     def get_serializer_class(self):
         if self.action == "retrieve":
