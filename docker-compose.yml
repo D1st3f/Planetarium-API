@@ -5,7 +5,6 @@ services:
     container_name: planetarium-api
     build:
       context: .
-    image: d1st3f/planetarium-api
     ports:
       - "8000:8000"
     volumes:
