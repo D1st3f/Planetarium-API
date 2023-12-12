@@ -12,7 +12,10 @@ from planetarium.models import (
     Ticket,
     Reservation,
 )
-from planetarium.permissions import IsAdminOrIfAuthenticatedEditOnly
+from planetarium.permissions import (
+    IsAdminOrIfAuthenticatedEditOnly,
+    IsAdminOrIfAuthenticatedReadOnly,
+)
 
 from planetarium.serializers import (
     AstronomyShowSerializer,
@@ -58,7 +61,7 @@ class ReservationViewSet(viewsets.ModelViewSet):
     queryset = Reservation.objects.all()
     serializer_class = ReservationSerializer
     pagination_class = OrderPagination
-    permission_classes = (IsAdminOrIfAuthenticatedEditOnly,)
+    permission_classes = (IsAdminOrIfAuthenticatedReadOnly,)
 
     def get_serializer_class(self):
         if self.action == "retrieve":
@@ -82,7 +85,7 @@ class TicketViewSet(viewsets.ModelViewSet):
     queryset = Ticket.objects.all()
     serializer_class = TicketSerializer
     pagination_class = OrderPagination
-    permission_classes = (IsAdminOrIfAuthenticatedEditOnly,)
+    permission_classes = (IsAdminOrIfAuthenticatedReadOnly,)
 
     def get_queryset(self):
         queryset = Ticket.objects.filter(reservation__user=self.request.user)
