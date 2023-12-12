@@ -9,7 +9,7 @@ SECRET_KEY = os.environ["DJANGO_SECRET_KEY"]
 
 DEBUG = os.environ.get("DJANGO_DEBUG", "") != "False"
 
-ALLOWED_HOSTS = ["127.0.0.1", "https://planetarium-api.onrender.com"]
+ALLOWED_HOSTS = ["127.0.0.1", "planetarium-api.onrender.com"]
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -108,5 +108,5 @@ SIMPLE_JWT = {
 }
 
 STATIC_URL = "static/"
-STATIC_ROOT = "staticfiles/"
+STATIC_ROOT = "static/"
 STATICFILES_DIRS = (BASE_DIR / "static",)
