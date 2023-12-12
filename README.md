@@ -11,11 +11,11 @@
 # ⚡️ Features
 
 
-1.[x]  JWT authentication
-2.[x]  Full CRUD
-3.[x]  Orders creation for tickets
-4.[x]  Pagination
-5.[x]  Filtering feature
+1. [x] JWT authentication
+2. [x] Full CRUD
+3. [x] Orders creation for tickets
+4. [x] Pagination
+5. [x] Filtering feature
 
 # 🧠 DB Schema
 
