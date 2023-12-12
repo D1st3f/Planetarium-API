@@ -108,5 +108,5 @@ SIMPLE_JWT = {
 }
 
 STATIC_URL = "static/"
-STATIC_ROOT = "static/"
+STATIC_ROOT = "staticfiles/"
 STATICFILES_DIRS = (BASE_DIR / "static",)
