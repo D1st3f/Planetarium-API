@@ -3,19 +3,19 @@
 ![img.png](https://cdn-icons-png.flaticon.com/512/2133/2133008.png)
 
 
-##   [⚡ Live DEMO](https://newspapersagency-w41c.onrender.com/)
+##   [⚡ Live DEMO](https://planetarium-api.onrender.com/api/schema/swagger/)
 - You can use following superuser (or create another one by yourself):
     - Login: ```FullAdmin```
     - Password: ```admin```
-
+- To create JTW go [**HERE**](https://planetarium-api.onrender.com/api/planetarium/token/) and use given credentials.
 # ⚡️ Features
 
 
-1.[x]  JWT authentication
-2.[x]  Full CRUD
-3.[x]  Orders creation for tickets
-4.[x]  Pagination
-5.[x]  Filtering feature
+1. [x] JWT authentication
+2. [x] Full CRUD
+3. [x] Orders creation for tickets
+4. [x] Pagination
+5. [x] Filtering feature
 
 # 🧠 DB Schema
 
