@@ -16,6 +16,9 @@
 3. [x] Orders creation for tickets
 4. [x] Pagination
 5. [x] Filtering feature
+6. [x] Admin panel **_/admin/_**
+7. [x] Full [documentation](https://planetarium-api.onrender.com/api/schema/swagger/) here
+8. [x] Rules for types of users
 
 # 🧠 DB Schema
 
