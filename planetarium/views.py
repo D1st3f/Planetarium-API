@@ -12,7 +12,10 @@ from planetarium.models import (
     Ticket,
     Reservation,
 )
-from planetarium.permissions import IsAdminOrIfAuthenticatedEditOnly
+from planetarium.permissions import (
+    IsAdminOrIfAuthenticatedEditOnly,
+    IsAdminOrIfAuthenticatedReadOnly,
+)
 
 from planetarium.serializers import (
     AstronomyShowSerializer,
@@ -109,14 +112,14 @@ class TicketViewSet(viewsets.ModelViewSet):
 class PlanetariumDomeViewSet(viewsets.ModelViewSet):
     queryset = PlanetariumDome.objects.all()
     serializer_class = PlanetariumDomeSerializer
-    permission_classes = (IsAdminOrIfAuthenticatedEditOnly,)
+    permission_classes = (IsAdminOrIfAuthenticatedReadOnly,)
 
 
 class ShowSessionViewSet(viewsets.ModelViewSet):
     queryset = ShowSession.objects.all()
     serializer_class = ShowSessionSerializer
     pagination_class = OrderPagination
-    permission_classes = (IsAdminOrIfAuthenticatedEditOnly,)
+    permission_classes = (IsAdminOrIfAuthenticatedReadOnly,)
 
     @staticmethod
     def _params_to_ints(qs):
