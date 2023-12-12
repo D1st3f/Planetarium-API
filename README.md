@@ -7,7 +7,7 @@
 - You can use following superuser (or create another one by yourself):
     - Login: ```FullAdmin```
     - Password: ```admin```
-
+- To create JTW go [**HERE**](https://planetarium-api.onrender.com/api/planetarium/token/) and use given credentials.
 # ⚡️ Features
 
 
