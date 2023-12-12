@@ -3,7 +3,7 @@
 ![img.png](https://cdn-icons-png.flaticon.com/512/2133/2133008.png)
 
 
-##   [⚡ Live DEMO](https://newspapersagency-w41c.onrender.com/)
+##   [⚡ Live DEMO](https://planetarium-api.onrender.com/api/schema/swagger/)
 - You can use following superuser (or create another one by yourself):
     - Login: ```FullAdmin```
     - Password: ```admin```
