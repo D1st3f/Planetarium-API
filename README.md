@@ -3,7 +3,7 @@
 ![img.png](https://cdn-icons-png.flaticon.com/512/2133/2133008.png)
 
 
-##   [⚡ Live DEMO](https://planetarium-api.onrender.com/api/schema/swagger/)
+##   [⚡ Live DEMO](https://planetarium-api.onrender.com/api/planetarium/)
 - You can use following superuser (or create another one by yourself):
     - Login: ```FullAdmin```
     - Password: ```admin```
@@ -16,7 +16,7 @@
 3. [x] Orders creation for tickets
 4. [x] Pagination
 5. [x] Filtering feature
-6. [x] Admin panel **_/admin/_**
+6. [x] [ Admin panel ](https://planetarium-api.onrender.com/admin/)
 7. [x] Full [documentation](https://planetarium-api.onrender.com/api/schema/swagger/) here
 8. [x] Rules for types of users
 
