@@ -24,7 +24,7 @@
 
 
 
-![img.png](https://media.mate.academy/planetarium_diagram_7f452c3e1d.png)
+![img.png](https://i.ibb.co/r6RLFpG/1233.png)
 
 ## 👩 _Installation & Run in Docker_
 <details>

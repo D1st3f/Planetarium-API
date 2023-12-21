@@ -4,9 +4,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = (
-    "django-insecure-)6sjaa^)=qg6&p#5^)0#ns0db0r3#*5#v5f83-_c@-y^lx-p%&"
-)
+SECRET_KEY = os.environ["DJANGO_SECRET_KEY"]
 
 DEBUG = True
 
@@ -36,7 +34,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "planetarium_api.urls"
+ROOT_URLCONF = "config.urls"
 
 TEMPLATES = [
     {
@@ -54,7 +52,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "planetarium_api.wsgi.application"
+WSGI_APPLICATION = "config.wsgi.application"
 
 DATABASES = {
     "default": {
