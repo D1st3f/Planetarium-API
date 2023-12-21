@@ -42,7 +42,7 @@ class PlanetariumDome(models.Model):
         return self.rows * self.seats_in_row
 
     def __str__(self) -> str:
-        return f"{self.name}"
+        return self.name
 
 
 class ShowSession(models.Model):
@@ -61,7 +61,7 @@ class ShowSession(models.Model):
         ordering = ["-show_time"]
 
     def __str__(self) -> str:
-        return f"{self.astronomy_show.title}"
+        return self.astronomy_show.title
 
     def clean(self):
         if self.show_time <= timezone.now():
