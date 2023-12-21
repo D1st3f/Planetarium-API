@@ -1,43 +1,50 @@
-from django.contrib.auth.models import User
-from django.test import TestCase
-from rest_framework.test import APIClient
-from rest_framework import status
-from rest_framework_simplejwt.tokens import RefreshToken
-from planetarium.models import ShowTheme, AstronomyShow
+from django.urls import reverse
 
-SHOW_THEMES_URL = "/api/planetarium/show_themes/"
+from planetarium.models import (
+    PlanetariumDome,
+    AstronomyShow,
+    ShowSession,
+    ShowTheme,
+)
+
+SHOW_THEMES_URL = reverse("planetarium:showsession-list")
 
 
-class AuthenticationTest(TestCase):
-    def setUp(self):
-        self.client = APIClient()
-        self.user = User.objects.create_user(
-            username="testuser", password="testpassword"
-        )
-        self.show_theme = ShowTheme.objects.create(name="Test Theme")
-        self.astronomy_show = AstronomyShow.objects.create(
-            title="Test Show", description="Test Description"
-        )
+def sample_astronomy_show(**params):
+    defaults = {
+        "name": "Sample show",
+        "description": "Sample description",
+    }
+    defaults.update(params)
 
-    def get_tokens_for_user(self, user):
-        refresh = RefreshToken.for_user(user)
-        return {"refresh": str(refresh), "access": str(refresh.access_token)}
+    return AstronomyShow.objects.create(**defaults)
 
-    def test_access_protected_endpoint(self):
-        tokens = self.get_tokens_for_user(self.user)
-        response = self.client.get(
-            SHOW_THEMES_URL,
-            HTTP_AUTHORIZATION=f"Bearer" f' {tokens["access"]}',
-        )
-        self.assertEqual(response.status_code, status.HTTP_200_OK)
 
-    def test_access_protected_endpoint_without_token(self):
-        response = self.client.post(SHOW_THEMES_URL)
-        self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
+def sample_show_theme(**params):
+    defaults = {
+        "name": "Stars",
+    }
+    defaults.update(params)
 
-    def test_access_protected_endpoint_with_invalid_token(self):
-        response = self.client.get(
-            SHOW_THEMES_URL,
-            HTTP_AUTHORIZATION="Bearer " "InvalidToken",
-        )
-        self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
+    return ShowTheme.objects.create(**defaults)
+
+
+def sample_show_session(**params):
+    planetarium_dome = PlanetariumDome.objects.create(
+        name="Cosmos", rows=20, seats_in_row=20
+    )
+
+    defaults = {
+        "show_time": "2022-06-02 14:00:00",
+        "astronomy_show": None,
+        "planetarium_dome": planetarium_dome,
+    }
+    defaults.update(params)
+
+    return ShowSession.objects.create(**defaults)
+
+
+def detail_url(astronomy_show_id):
+    return reverse(
+        "planetarium:astronomyshow-detail", args=[astronomy_show_id]
+    )
