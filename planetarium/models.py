@@ -1,4 +1,4 @@
-from django.contrib.auth.models import User
+from django.contrib.auth import get_user_model
 from django.db import models
 from django.utils import timezone
 from rest_framework.exceptions import ValidationError
@@ -70,18 +70,14 @@ class ShowSession(models.Model):
 
 class Reservation(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
-    user = models.ForeignKey(
-        User, on_delete=models.CASCADE, related_name="reservations"
-    )
+    user = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
 
     class Meta:
         ordering = ["-created_at"]
 
-    def __str__(self) -> str:
-        return (
-            f"{self.user.first_name} {self.user.last_name} - "
-            f"{self.created_at.ctime()}"
-        )
+    def __str__(self):
+        return (f"Reservation №{self.id}, "
+                f"created at: {self.created_at}")
 
 
 class Ticket(models.Model):
@@ -101,10 +97,9 @@ class Ticket(models.Model):
         unique_together = ("row", "seat", "show_session")
         ordering = ["-reservation__created_at"]
 
-    def __str__(self) -> str:
+    def __str__(self):
         return (
-            f"{self.id} - {self.reservation.user.last_name} "
-            f"{self.reservation.user.first_name} "
+            f"{str(self.show_session)} (row: {self.row}, seat: {self.seat})"
         )
 
     @staticmethod
