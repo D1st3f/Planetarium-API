@@ -1,7 +1,6 @@
 from django.db.models import Count, F
 from drf_spectacular.utils import extend_schema, OpenApiParameter
 from rest_framework import viewsets
-from rest_framework.pagination import PageNumberPagination
 
 
 from planetarium.models import (
@@ -12,6 +11,7 @@ from planetarium.models import (
     Ticket,
     Reservation,
 )
+from planetarium.pagination import OrderPagination
 from planetarium.permissions import (
     IsAdminOrIfAuthenticatedEditOnly,
     IsAdminOrIfAuthenticatedReadOnly,
@@ -31,12 +31,6 @@ from planetarium.serializers import (
     ReservationSerializer,
     ReservationDetailSerializer,
 )
-
-
-class OrderPagination(PageNumberPagination):
-    page_size = 10
-    page_size_query_param = "page_size"
-    max_page_size = 100
 
 
 class ShowThemeViewSet(viewsets.ModelViewSet):
