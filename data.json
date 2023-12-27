@@ -1,1 +1,2422 @@
-[{"model": "admin.logentry", "pk": 1, "fields": {"action_time": "2023-12-11T14:11:40.778Z", "user": 1, "content_type": 4, "object_id": "1", "object_repr": "FullAdmin", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"}}, {"model": "admin.logentry", "pk": 2, "fields": {"action_time": "2023-12-11T14:11:59.785Z", "user": 1, "content_type": 4, "object_id": "2", "object_repr": "Jonson", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 3, "fields": {"action_time": "2023-12-11T14:12:21.483Z", "user": 1, "content_type": 4, "object_id": "3", "object_repr": "Patrion", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 4, "fields": {"action_time": "2023-12-11T14:12:38.337Z", "user": 1, "content_type": 4, "object_id": "4", "object_repr": "Karavai", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 5, "fields": {"action_time": "2023-12-11T14:12:52.425Z", "user": 1, "content_type": 4, "object_id": "5", "object_repr": "BBQ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 6, "fields": {"action_time": "2023-12-11T14:13:03.756Z", "user": 1, "content_type": 4, "object_id": "5", "object_repr": "BBQ", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"}}, {"model": "admin.logentry", "pk": 7, "fields": {"action_time": "2023-12-11T14:13:13.518Z", "user": 1, "content_type": 4, "object_id": "2", "object_repr": "Jonson", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"}}, {"model": "admin.logentry", "pk": 8, "fields": {"action_time": "2023-12-11T14:13:25.504Z", "user": 1, "content_type": 4, "object_id": "4", "object_repr": "Karavai", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"}}, {"model": "admin.logentry", "pk": 9, "fields": {"action_time": "2023-12-11T14:13:32.522Z", "user": 1, "content_type": 4, "object_id": "3", "object_repr": "Patrion", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"}}, {"model": "admin.logentry", "pk": 10, "fields": {"action_time": "2023-12-11T14:14:30.528Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "Time Travel Through the Cosmos", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 11, "fields": {"action_time": "2023-12-11T14:14:35.457Z", "user": 1, "content_type": 9, "object_id": "2", "object_repr": "Exoplanet Expeditions", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 12, "fields": {"action_time": "2023-12-11T14:14:42.156Z", "user": 1, "content_type": 9, "object_id": "3", "object_repr": "Mysteries of the Dark Matter", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 13, "fields": {"action_time": "2023-12-11T14:14:47.168Z", "user": 1, "content_type": 9, "object_id": "4", "object_repr": "Celestial Wonders for Beginners", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 14, "fields": {"action_time": "2023-12-11T14:14:51.712Z", "user": 1, "content_type": 9, "object_id": "5", "object_repr": "Alien Worlds: Life Beyond Earth", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 15, "fields": {"action_time": "2023-12-11T14:14:56.836Z", "user": 1, "content_type": 9, "object_id": "6", "object_repr": "The Art of Astrophotography", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 16, "fields": {"action_time": "2023-12-11T14:15:00.913Z", "user": 1, "content_type": 9, "object_id": "7", "object_repr": "Cosmic Phenomena Unleashed", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 17, "fields": {"action_time": "2023-12-11T14:15:05.961Z", "user": 1, "content_type": 9, "object_id": "8", "object_repr": "Space Colonization: Our Future Beyond Earth", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 18, "fields": {"action_time": "2023-12-11T14:15:09.986Z", "user": 1, "content_type": 9, "object_id": "9", "object_repr": "The Science of Sci-Fi", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 19, "fields": {"action_time": "2023-12-11T14:15:15.089Z", "user": 1, "content_type": 9, "object_id": "10", "object_repr": "The Solar System Odyssey", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 20, "fields": {"action_time": "2023-12-11T14:15:19.953Z", "user": 1, "content_type": 9, "object_id": "11", "object_repr": "Astronomy and Mythology", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 21, "fields": {"action_time": "2023-12-11T14:15:24.498Z", "user": 1, "content_type": 9, "object_id": "12", "object_repr": "The Great Observatories", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 22, "fields": {"action_time": "2023-12-11T14:16:49.010Z", "user": 1, "content_type": 9, "object_id": "5", "object_repr": "Alien Worlds: Life Beyond Earth", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 23, "fields": {"action_time": "2023-12-11T14:16:49.015Z", "user": 1, "content_type": 9, "object_id": "11", "object_repr": "Astronomy and Mythology", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 24, "fields": {"action_time": "2023-12-11T14:16:49.020Z", "user": 1, "content_type": 9, "object_id": "4", "object_repr": "Celestial Wonders for Beginners", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 25, "fields": {"action_time": "2023-12-11T14:16:49.025Z", "user": 1, "content_type": 9, "object_id": "7", "object_repr": "Cosmic Phenomena Unleashed", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 26, "fields": {"action_time": "2023-12-11T14:16:49.030Z", "user": 1, "content_type": 9, "object_id": "2", "object_repr": "Exoplanet Expeditions", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 27, "fields": {"action_time": "2023-12-11T14:16:49.035Z", "user": 1, "content_type": 9, "object_id": "3", "object_repr": "Mysteries of the Dark Matter", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 28, "fields": {"action_time": "2023-12-11T14:16:49.040Z", "user": 1, "content_type": 9, "object_id": "8", "object_repr": "Space Colonization: Our Future Beyond Earth", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 29, "fields": {"action_time": "2023-12-11T14:16:49.046Z", "user": 1, "content_type": 9, "object_id": "6", "object_repr": "The Art of Astrophotography", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 30, "fields": {"action_time": "2023-12-11T14:16:49.051Z", "user": 1, "content_type": 9, "object_id": "12", "object_repr": "The Great Observatories", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 31, "fields": {"action_time": "2023-12-11T14:16:49.056Z", "user": 1, "content_type": 9, "object_id": "9", "object_repr": "The Science of Sci-Fi", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 32, "fields": {"action_time": "2023-12-11T14:16:49.061Z", "user": 1, "content_type": 9, "object_id": "10", "object_repr": "The Solar System Odyssey", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 33, "fields": {"action_time": "2023-12-11T14:16:49.067Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "Time Travel Through the Cosmos", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 34, "fields": {"action_time": "2023-12-11T14:17:36.836Z", "user": 1, "content_type": 9, "object_id": "13", "object_repr": "The theme revolves around the exploration of the broader universe, highlighting the diversity and wo", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 35, "fields": {"action_time": "2023-12-11T14:17:39.983Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "Celestial Odyssey", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 36, "fields": {"action_time": "2023-12-11T14:18:09.879Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "Exoplanet Explorers", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 37, "fields": {"action_time": "2023-12-11T14:18:21.175Z", "user": 1, "content_type": 9, "object_id": "13", "object_repr": "Nature", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"}}, {"model": "admin.logentry", "pk": 38, "fields": {"action_time": "2023-12-11T14:18:37.426Z", "user": 1, "content_type": 9, "object_id": "14", "object_repr": "Knowledge", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 39, "fields": {"action_time": "2023-12-11T14:18:48.055Z", "user": 1, "content_type": 9, "object_id": "15", "object_repr": "Development", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 40, "fields": {"action_time": "2023-12-11T14:19:00.687Z", "user": 1, "content_type": 9, "object_id": "16", "object_repr": "Research", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 41, "fields": {"action_time": "2023-12-11T14:19:14.895Z", "user": 1, "content_type": 9, "object_id": "17", "object_repr": "Experiment", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 42, "fields": {"action_time": "2023-12-11T14:19:23.384Z", "user": 1, "content_type": 9, "object_id": "18", "object_repr": "Show", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 43, "fields": {"action_time": "2023-12-11T14:19:30.628Z", "user": 1, "content_type": 9, "object_id": "19", "object_repr": "Action", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 44, "fields": {"action_time": "2023-12-11T14:20:10.908Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "Celestial Odyssey", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 45, "fields": {"action_time": "2023-12-11T14:20:26.180Z", "user": 1, "content_type": 7, "object_id": "3", "object_repr": "Chronicles of the Cosmos", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 46, "fields": {"action_time": "2023-12-11T14:20:37.523Z", "user": 1, "content_type": 7, "object_id": "4", "object_repr": "Beyond the Event Horizon", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 47, "fields": {"action_time": "2023-12-11T14:20:48.020Z", "user": 1, "content_type": 7, "object_id": "5", "object_repr": "The Lunar Symphony", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 48, "fields": {"action_time": "2023-12-11T14:20:56.460Z", "user": 1, "content_type": 7, "object_id": "6", "object_repr": "Alien Worlds Unveiled", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 49, "fields": {"action_time": "2023-12-11T14:21:07.184Z", "user": 1, "content_type": 7, "object_id": "7", "object_repr": "Stargazers' Safari", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 50, "fields": {"action_time": "2023-12-11T14:21:15.985Z", "user": 1, "content_type": 7, "object_id": "8", "object_repr": "Eclipsed Wonders", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 51, "fields": {"action_time": "2023-12-11T14:21:24.953Z", "user": 1, "content_type": 7, "object_id": "9", "object_repr": "Galactic Architects", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 52, "fields": {"action_time": "2023-12-11T14:21:35.418Z", "user": 1, "content_type": 7, "object_id": "10", "object_repr": "Myths of the Night Sky", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 53, "fields": {"action_time": "2023-12-11T14:21:46.193Z", "user": 1, "content_type": 7, "object_id": "11", "object_repr": "Alien Worlds: Life Beyond Earth", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 54, "fields": {"action_time": "2023-12-11T14:21:53.657Z", "user": 1, "content_type": 7, "object_id": "12", "object_repr": "Time Travel Through the Cosmos", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 55, "fields": {"action_time": "2023-12-11T14:24:25.233Z", "user": 1, "content_type": 8, "object_id": "1", "object_repr": "CosmicSphere", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 56, "fields": {"action_time": "2023-12-11T14:24:29.472Z", "user": 1, "content_type": 8, "object_id": "2", "object_repr": "StellarDome", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 57, "fields": {"action_time": "2023-12-11T14:24:37.673Z", "user": 1, "content_type": 8, "object_id": "3", "object_repr": "AstroVault", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 58, "fields": {"action_time": "2023-12-11T14:24:43.656Z", "user": 1, "content_type": 8, "object_id": "4", "object_repr": "CelestialDome", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 59, "fields": {"action_time": "2023-12-11T14:24:56.007Z", "user": 1, "content_type": 8, "object_id": "5", "object_repr": "GalaxyGlobe", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 60, "fields": {"action_time": "2023-12-11T14:25:03.946Z", "user": 1, "content_type": 8, "object_id": "6", "object_repr": "NebulaDome", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 61, "fields": {"action_time": "2023-12-11T14:25:33.864Z", "user": 1, "content_type": 11, "object_id": "1", "object_repr": "Alien Worlds Unveiled", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 62, "fields": {"action_time": "2023-12-11T14:25:44.304Z", "user": 1, "content_type": 11, "object_id": "2", "object_repr": "Alien Worlds: Life Beyond Earth", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 63, "fields": {"action_time": "2023-12-11T14:25:53.248Z", "user": 1, "content_type": 11, "object_id": "3", "object_repr": "Beyond the Event Horizon", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 64, "fields": {"action_time": "2023-12-11T14:26:07.705Z", "user": 1, "content_type": 11, "object_id": "4", "object_repr": "Celestial Odyssey", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 65, "fields": {"action_time": "2023-12-11T14:26:22.593Z", "user": 1, "content_type": 11, "object_id": "5", "object_repr": "Chronicles of the Cosmos", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 66, "fields": {"action_time": "2023-12-11T14:26:40.178Z", "user": 1, "content_type": 11, "object_id": "6", "object_repr": "Eclipsed Wonders", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 67, "fields": {"action_time": "2023-12-11T14:26:53.250Z", "user": 1, "content_type": 11, "object_id": "7", "object_repr": "Exoplanet Explorers", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 68, "fields": {"action_time": "2023-12-11T14:27:04.874Z", "user": 1, "content_type": 11, "object_id": "8", "object_repr": "Galactic Architects", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 69, "fields": {"action_time": "2023-12-11T14:27:16.706Z", "user": 1, "content_type": 11, "object_id": "9", "object_repr": "Myths of the Night Sky", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 70, "fields": {"action_time": "2023-12-11T14:27:28.899Z", "user": 1, "content_type": 11, "object_id": "10", "object_repr": "Stargazers' Safari", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 71, "fields": {"action_time": "2023-12-11T14:27:38.087Z", "user": 1, "content_type": 11, "object_id": "11", "object_repr": "The Lunar Symphony", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 72, "fields": {"action_time": "2023-12-11T14:27:49.164Z", "user": 1, "content_type": 11, "object_id": "12", "object_repr": "Time Travel Through the Cosmos", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 73, "fields": {"action_time": "2023-12-11T14:29:04.965Z", "user": 1, "content_type": 10, "object_id": "1", "object_repr": "Svat Zaghaikevich - Mon Dec 11 14:29:04 2023", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 74, "fields": {"action_time": "2023-12-11T14:29:06.520Z", "user": 1, "content_type": 10, "object_id": "2", "object_repr": "Jons Bo - Mon Dec 11 14:29:06 2023", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 75, "fields": {"action_time": "2023-12-11T14:29:07.740Z", "user": 1, "content_type": 10, "object_id": "3", "object_repr": "Svat Zaghaikevich - Mon Dec 11 14:29:07 2023", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 76, "fields": {"action_time": "2023-12-11T14:29:08.891Z", "user": 1, "content_type": 10, "object_id": "4", "object_repr": "Ivan Zolo - Mon Dec 11 14:29:08 2023", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 77, "fields": {"action_time": "2023-12-11T14:29:09.982Z", "user": 1, "content_type": 10, "object_id": "5", "object_repr": "Vlad Valakas - Mon Dec 11 14:29:09 2023", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 78, "fields": {"action_time": "2023-12-11T14:29:12.078Z", "user": 1, "content_type": 10, "object_id": "6", "object_repr": "Peter Markins - Mon Dec 11 14:29:12 2023", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 79, "fields": {"action_time": "2023-12-11T14:29:13.389Z", "user": 1, "content_type": 10, "object_id": "7", "object_repr": "Vlad Valakas - Mon Dec 11 14:29:13 2023", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 80, "fields": {"action_time": "2023-12-11T14:29:14.461Z", "user": 1, "content_type": 10, "object_id": "8", "object_repr": "Ivan Zolo - Mon Dec 11 14:29:14 2023", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 81, "fields": {"action_time": "2023-12-11T14:29:15.958Z", "user": 1, "content_type": 10, "object_id": "9", "object_repr": "Jons Bo - Mon Dec 11 14:29:15 2023", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 82, "fields": {"action_time": "2023-12-11T14:29:17.162Z", "user": 1, "content_type": 10, "object_id": "10", "object_repr": "Svat Zaghaikevich - Mon Dec 11 14:29:17 2023", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 83, "fields": {"action_time": "2023-12-11T14:29:18.333Z", "user": 1, "content_type": 10, "object_id": "11", "object_repr": "Peter Markins - Mon Dec 11 14:29:18 2023", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 84, "fields": {"action_time": "2023-12-11T14:29:28.752Z", "user": 1, "content_type": 12, "object_id": "1", "object_repr": "1 - Markins Peter ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 85, "fields": {"action_time": "2023-12-11T14:29:33.212Z", "user": 1, "content_type": 12, "object_id": "2", "object_repr": "2 - Zaghaikevich Svat ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 86, "fields": {"action_time": "2023-12-11T14:29:38.165Z", "user": 1, "content_type": 12, "object_id": "3", "object_repr": "3 - Bo Jons ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 87, "fields": {"action_time": "2023-12-11T14:29:48.101Z", "user": 1, "content_type": 12, "object_id": "4", "object_repr": "4 - Zolo Ivan ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 88, "fields": {"action_time": "2023-12-11T14:29:58.973Z", "user": 1, "content_type": 12, "object_id": "5", "object_repr": "5 - Valakas Vlad ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 89, "fields": {"action_time": "2023-12-11T14:30:04.853Z", "user": 1, "content_type": 12, "object_id": "6", "object_repr": "6 - Markins Peter ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 90, "fields": {"action_time": "2023-12-11T14:30:13.606Z", "user": 1, "content_type": 12, "object_id": "7", "object_repr": "7 - Valakas Vlad ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 91, "fields": {"action_time": "2023-12-11T14:30:50.466Z", "user": 1, "content_type": 12, "object_id": "8", "object_repr": "8 - Valakas Vlad ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 92, "fields": {"action_time": "2023-12-11T14:30:55.879Z", "user": 1, "content_type": 12, "object_id": "9", "object_repr": "9 - Zaghaikevich Svat ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 93, "fields": {"action_time": "2023-12-11T14:31:04.559Z", "user": 1, "content_type": 12, "object_id": "10", "object_repr": "10 - Bo Jons ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 94, "fields": {"action_time": "2023-12-11T14:31:12.679Z", "user": 1, "content_type": 12, "object_id": "11", "object_repr": "11 - Zaghaikevich Svat ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 95, "fields": {"action_time": "2023-12-11T14:31:19.063Z", "user": 1, "content_type": 12, "object_id": "12", "object_repr": "12 - Zolo Ivan ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "auth.permission", "pk": 1, "fields": {"name": "Can add log entry", "content_type": 1, "codename": "add_logentry"}}, {"model": "auth.permission", "pk": 2, "fields": {"name": "Can change log entry", "content_type": 1, "codename": "change_logentry"}}, {"model": "auth.permission", "pk": 3, "fields": {"name": "Can delete log entry", "content_type": 1, "codename": "delete_logentry"}}, {"model": "auth.permission", "pk": 4, "fields": {"name": "Can view log entry", "content_type": 1, "codename": "view_logentry"}}, {"model": "auth.permission", "pk": 5, "fields": {"name": "Can add permission", "content_type": 2, "codename": "add_permission"}}, {"model": "auth.permission", "pk": 6, "fields": {"name": "Can change permission", "content_type": 2, "codename": "change_permission"}}, {"model": "auth.permission", "pk": 7, "fields": {"name": "Can delete permission", "content_type": 2, "codename": "delete_permission"}}, {"model": "auth.permission", "pk": 8, "fields": {"name": "Can view permission", "content_type": 2, "codename": "view_permission"}}, {"model": "auth.permission", "pk": 9, "fields": {"name": "Can add group", "content_type": 3, "codename": "add_group"}}, {"model": "auth.permission", "pk": 10, "fields": {"name": "Can change group", "content_type": 3, "codename": "change_group"}}, {"model": "auth.permission", "pk": 11, "fields": {"name": "Can delete group", "content_type": 3, "codename": "delete_group"}}, {"model": "auth.permission", "pk": 12, "fields": {"name": "Can view group", "content_type": 3, "codename": "view_group"}}, {"model": "auth.permission", "pk": 13, "fields": {"name": "Can add user", "content_type": 4, "codename": "add_user"}}, {"model": "auth.permission", "pk": 14, "fields": {"name": "Can change user", "content_type": 4, "codename": "change_user"}}, {"model": "auth.permission", "pk": 15, "fields": {"name": "Can delete user", "content_type": 4, "codename": "delete_user"}}, {"model": "auth.permission", "pk": 16, "fields": {"name": "Can view user", "content_type": 4, "codename": "view_user"}}, {"model": "auth.permission", "pk": 17, "fields": {"name": "Can add content type", "content_type": 5, "codename": "add_contenttype"}}, {"model": "auth.permission", "pk": 18, "fields": {"name": "Can change content type", "content_type": 5, "codename": "change_contenttype"}}, {"model": "auth.permission", "pk": 19, "fields": {"name": "Can delete content type", "content_type": 5, "codename": "delete_contenttype"}}, {"model": "auth.permission", "pk": 20, "fields": {"name": "Can view content type", "content_type": 5, "codename": "view_contenttype"}}, {"model": "auth.permission", "pk": 21, "fields": {"name": "Can add session", "content_type": 6, "codename": "add_session"}}, {"model": "auth.permission", "pk": 22, "fields": {"name": "Can change session", "content_type": 6, "codename": "change_session"}}, {"model": "auth.permission", "pk": 23, "fields": {"name": "Can delete session", "content_type": 6, "codename": "delete_session"}}, {"model": "auth.permission", "pk": 24, "fields": {"name": "Can view session", "content_type": 6, "codename": "view_session"}}, {"model": "auth.permission", "pk": 25, "fields": {"name": "Can add astronomy show", "content_type": 7, "codename": "add_astronomyshow"}}, {"model": "auth.permission", "pk": 26, "fields": {"name": "Can change astronomy show", "content_type": 7, "codename": "change_astronomyshow"}}, {"model": "auth.permission", "pk": 27, "fields": {"name": "Can delete astronomy show", "content_type": 7, "codename": "delete_astronomyshow"}}, {"model": "auth.permission", "pk": 28, "fields": {"name": "Can view astronomy show", "content_type": 7, "codename": "view_astronomyshow"}}, {"model": "auth.permission", "pk": 29, "fields": {"name": "Can add planetarium dome", "content_type": 8, "codename": "add_planetariumdome"}}, {"model": "auth.permission", "pk": 30, "fields": {"name": "Can change planetarium dome", "content_type": 8, "codename": "change_planetariumdome"}}, {"model": "auth.permission", "pk": 31, "fields": {"name": "Can delete planetarium dome", "content_type": 8, "codename": "delete_planetariumdome"}}, {"model": "auth.permission", "pk": 32, "fields": {"name": "Can view planetarium dome", "content_type": 8, "codename": "view_planetariumdome"}}, {"model": "auth.permission", "pk": 33, "fields": {"name": "Can add show theme", "content_type": 9, "codename": "add_showtheme"}}, {"model": "auth.permission", "pk": 34, "fields": {"name": "Can change show theme", "content_type": 9, "codename": "change_showtheme"}}, {"model": "auth.permission", "pk": 35, "fields": {"name": "Can delete show theme", "content_type": 9, "codename": "delete_showtheme"}}, {"model": "auth.permission", "pk": 36, "fields": {"name": "Can view show theme", "content_type": 9, "codename": "view_showtheme"}}, {"model": "auth.permission", "pk": 37, "fields": {"name": "Can add reservation", "content_type": 10, "codename": "add_reservation"}}, {"model": "auth.permission", "pk": 38, "fields": {"name": "Can change reservation", "content_type": 10, "codename": "change_reservation"}}, {"model": "auth.permission", "pk": 39, "fields": {"name": "Can delete reservation", "content_type": 10, "codename": "delete_reservation"}}, {"model": "auth.permission", "pk": 40, "fields": {"name": "Can view reservation", "content_type": 10, "codename": "view_reservation"}}, {"model": "auth.permission", "pk": 41, "fields": {"name": "Can add show session", "content_type": 11, "codename": "add_showsession"}}, {"model": "auth.permission", "pk": 42, "fields": {"name": "Can change show session", "content_type": 11, "codename": "change_showsession"}}, {"model": "auth.permission", "pk": 43, "fields": {"name": "Can delete show session", "content_type": 11, "codename": "delete_showsession"}}, {"model": "auth.permission", "pk": 44, "fields": {"name": "Can view show session", "content_type": 11, "codename": "view_showsession"}}, {"model": "auth.permission", "pk": 45, "fields": {"name": "Can add ticket", "content_type": 12, "codename": "add_ticket"}}, {"model": "auth.permission", "pk": 46, "fields": {"name": "Can change ticket", "content_type": 12, "codename": "change_ticket"}}, {"model": "auth.permission", "pk": 47, "fields": {"name": "Can delete ticket", "content_type": 12, "codename": "delete_ticket"}}, {"model": "auth.permission", "pk": 48, "fields": {"name": "Can view ticket", "content_type": 12, "codename": "view_ticket"}}, {"model": "auth.user", "pk": 1, "fields": {"password": "pbkdf2_sha256$720000$QyGhkraprmNDqTFXr8lmMc$ILhVVDibvrJ+TuZRMEwSXpwrwgofXwfhZ4BRgODEDts=", "last_login": "2023-12-11T15:30:07.974Z", "is_superuser": true, "username": "FullAdmin", "first_name": "Ivan", "last_name": "Zolo", "email": "admin@gmail.com", "is_staff": true, "is_active": true, "date_joined": "2023-12-11T14:11:12Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 2, "fields": {"password": "pbkdf2_sha256$720000$Ps9XTFyPnl2RWwXUiVG8of$F8QSzQnIhObfssiKq4Iprbs1hC5l/FUo/cRbzODjGZU=", "last_login": null, "is_superuser": false, "username": "Jonson", "first_name": "Svat", "last_name": "Zaghaikevich", "email": "", "is_staff": false, "is_active": true, "date_joined": "2023-12-11T14:11:59Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 3, "fields": {"password": "pbkdf2_sha256$720000$WsdBJrYwI2zZE1axku9Wpe$jhP0PICp6tInjdhqJ3k8P6FN+hSUKty4GYVW1tKfqaI=", "last_login": null, "is_superuser": false, "username": "Patrion", "first_name": "Peter", "last_name": "Markins", "email": "", "is_staff": false, "is_active": true, "date_joined": "2023-12-11T14:12:21Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 4, "fields": {"password": "pbkdf2_sha256$720000$zC8YUhTVfWPuXJ5KXnZAy0$cL9ms9srTlZ3wAiRvN9c8Q/VDMFbLElk79MyFf2UQzY=", "last_login": null, "is_superuser": false, "username": "Karavai", "first_name": "Vlad", "last_name": "Valakas", "email": "", "is_staff": false, "is_active": true, "date_joined": "2023-12-11T14:12:38Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 5, "fields": {"password": "pbkdf2_sha256$720000$lfjIRzyxowVW591zmdu9lD$U0sKpufxqyjJVnLsO2NrNCBCymG/bA7UJ3p7OVkuuS8=", "last_login": null, "is_superuser": false, "username": "BBQ", "first_name": "Jons", "last_name": "Bo", "email": "", "is_staff": false, "is_active": true, "date_joined": "2023-12-11T14:12:52Z", "groups": [], "user_permissions": []}}, {"model": "contenttypes.contenttype", "pk": 1, "fields": {"app_label": "admin", "model": "logentry"}}, {"model": "contenttypes.contenttype", "pk": 2, "fields": {"app_label": "auth", "model": "permission"}}, {"model": "contenttypes.contenttype", "pk": 3, "fields": {"app_label": "auth", "model": "group"}}, {"model": "contenttypes.contenttype", "pk": 4, "fields": {"app_label": "auth", "model": "user"}}, {"model": "contenttypes.contenttype", "pk": 5, "fields": {"app_label": "contenttypes", "model": "contenttype"}}, {"model": "contenttypes.contenttype", "pk": 6, "fields": {"app_label": "sessions", "model": "session"}}, {"model": "contenttypes.contenttype", "pk": 7, "fields": {"app_label": "planetarium", "model": "astronomyshow"}}, {"model": "contenttypes.contenttype", "pk": 8, "fields": {"app_label": "planetarium", "model": "planetariumdome"}}, {"model": "contenttypes.contenttype", "pk": 9, "fields": {"app_label": "planetarium", "model": "showtheme"}}, {"model": "contenttypes.contenttype", "pk": 10, "fields": {"app_label": "planetarium", "model": "reservation"}}, {"model": "contenttypes.contenttype", "pk": 11, "fields": {"app_label": "planetarium", "model": "showsession"}}, {"model": "contenttypes.contenttype", "pk": 12, "fields": {"app_label": "planetarium", "model": "ticket"}}, {"model": "sessions.session", "pk": "30hk5aw5oobayxesv871n4hlkzaphadc", "fields": {"session_data": ".eJxVjMsOwiAUBf-FtSFACVCX7v0GcrkPqRqalHZl_Hdt0oVuz8ycl8qwrTVvnZc8kTorq06_WwF8cNsB3aHdZo1zW5ep6F3RB-36OhM_L4f7d1Ch129tYiQTDLMnQwExJGcBeXBA6ASSjCUJ2BLZUbJsBsLgnJfRk0T0ot4fAKI46w:1rCiER:anKMfqflBqCozyN4JXyGUhKuop4bxY0RTFK0SugZ9_w", "expire_date": "2023-12-25T15:30:07.979Z"}}, {"model": "planetarium.showtheme", "pk": 13, "fields": {"name": "Nature"}}, {"model": "planetarium.showtheme", "pk": 14, "fields": {"name": "Knowledge"}}, {"model": "planetarium.showtheme", "pk": 15, "fields": {"name": "Development"}}, {"model": "planetarium.showtheme", "pk": 16, "fields": {"name": "Research"}}, {"model": "planetarium.showtheme", "pk": 17, "fields": {"name": "Experiment"}}, {"model": "planetarium.showtheme", "pk": 18, "fields": {"name": "Show"}}, {"model": "planetarium.showtheme", "pk": 19, "fields": {"name": "Action"}}, {"model": "planetarium.astronomyshow", "pk": 1, "fields": {"title": "Celestial Odyssey", "description": "Embark on a mesmerizing journey through the vastness of the cosmos, exploring the beauty and mysteries of distant galaxies, nebulae, and cosmic phenomena.", "show_theme": [13]}}, {"model": "planetarium.astronomyshow", "pk": 2, "fields": {"title": "Exoplanet Explorers", "description": "Join our cosmic expedition as we travel beyond our solar system to discover and marvel at the diversity of exoplanets, each with its own unique features and potential for life.", "show_theme": [13]}}, {"model": "planetarium.astronomyshow", "pk": 3, "fields": {"title": "Chronicles of the Cosmos", "description": "Dive deep into the annals of space and time, unraveling the captivating stories of celestial objects, from the birth of stars to the cataclysmic events that shape the universe.", "show_theme": [15, 16]}}, {"model": "planetarium.astronomyshow", "pk": 4, "fields": {"title": "Beyond the Event Horizon", "description": "Venture into the mysterious realm of black holes and explore the mind-bending science behind these cosmic enigmas, from their formation to their gravitational dance with surrounding matter.", "show_theme": [15, 17, 16]}}, {"model": "planetarium.astronomyshow", "pk": 5, "fields": {"title": "The Lunar Symphony", "description": "Experience the enchanting allure of Earth's moon in a poetic journey that explores its phases, impact on Earth, and the historical and cultural significance it holds for humanity.", "show_theme": [19, 18]}}, {"model": "planetarium.astronomyshow", "pk": 6, "fields": {"title": "Alien Worlds Unveiled", "description": "Take a speculative look at potential extraterrestrial habitats, discussing the science behind the search for habitable exoplanets and the conditions necessary for life beyond our solar system.", "show_theme": [17]}}, {"model": "planetarium.astronomyshow", "pk": 7, "fields": {"title": "Stargazers' Safari", "description": "Embark on a celestial safari, navigating the night sky to discover constellations, planets, and other celestial wonders. Learn the art of stargazing and the stories behind the stars.", "show_theme": [19, 14]}}, {"model": "planetarium.astronomyshow", "pk": 8, "fields": {"title": "Eclipsed Wonders", "description": "Witness the awe-inspiring beauty of solar and lunar eclipses, unraveling the celestial mechanics that create these rare cosmic events and exploring their cultural significance throughout history.", "show_theme": [15]}}, {"model": "planetarium.astronomyshow", "pk": 9, "fields": {"title": "Galactic Architects", "description": "Explore the potential future of space colonization and human settlement on other planets, delving into the science, technology, and challenges involved in turning celestial bodies into our next homes.", "show_theme": [19]}}, {"model": "planetarium.astronomyshow", "pk": 10, "fields": {"title": "Myths of the Night Sky", "description": "Unearth the ancient myths and legends woven into the constellations, planets, and other celestial objects, bridging the gap between astronomy and the rich tapestry of human storytelling.", "show_theme": [19, 15, 14, 18]}}, {"model": "planetarium.astronomyshow", "pk": 11, "fields": {"title": "Alien Worlds: Life Beyond Earth", "description": "Speculate on the possibility of extraterrestrial life. Explore the conditions required for life, potential exoplanets, and the search for biosignatures.", "show_theme": [16]}}, {"model": "planetarium.astronomyshow", "pk": 12, "fields": {"title": "Time Travel Through the Cosmos", "description": "Explore the universe's history and future, taking the audience on a journey through different cosmic eras, from the formation of stars to the potential fate of the universe.", "show_theme": [15]}}, {"model": "planetarium.planetariumdome", "pk": 1, "fields": {"name": "CosmicSphere", "rows": 5, "seats_in_row": 34}}, {"model": "planetarium.planetariumdome", "pk": 2, "fields": {"name": "StellarDome", "rows": 4, "seats_in_row": 4}}, {"model": "planetarium.planetariumdome", "pk": 3, "fields": {"name": "AstroVault", "rows": 32, "seats_in_row": 10}}, {"model": "planetarium.planetariumdome", "pk": 4, "fields": {"name": "CelestialDome", "rows": 5, "seats_in_row": 11}}, {"model": "planetarium.planetariumdome", "pk": 5, "fields": {"name": "GalaxyGlobe", "rows": 6, "seats_in_row": 8}}, {"model": "planetarium.planetariumdome", "pk": 6, "fields": {"name": "NebulaDome", "rows": 3, "seats_in_row": 13}}, {"model": "planetarium.showsession", "pk": 1, "fields": {"astronomy_show": 6, "planetarium_dome": 3, "show_time": "2024-03-07T04:00:00Z"}}, {"model": "planetarium.showsession", "pk": 2, "fields": {"astronomy_show": 11, "planetarium_dome": 4, "show_time": "2024-02-08T14:25:42Z"}}, {"model": "planetarium.showsession", "pk": 3, "fields": {"astronomy_show": 4, "planetarium_dome": 1, "show_time": "2024-03-28T14:25:52Z"}}, {"model": "planetarium.showsession", "pk": 4, "fields": {"astronomy_show": 1, "planetarium_dome": 5, "show_time": "2024-10-10T13:26:04Z"}}, {"model": "planetarium.showsession", "pk": 5, "fields": {"astronomy_show": 3, "planetarium_dome": 6, "show_time": "2024-02-21T14:26:21Z"}}, {"model": "planetarium.showsession", "pk": 6, "fields": {"astronomy_show": 8, "planetarium_dome": 2, "show_time": "2025-12-11T14:26:39Z"}}, {"model": "planetarium.showsession", "pk": 7, "fields": {"astronomy_show": 2, "planetarium_dome": 3, "show_time": "2024-10-24T13:26:52Z"}}, {"model": "planetarium.showsession", "pk": 8, "fields": {"astronomy_show": 9, "planetarium_dome": 4, "show_time": "2024-09-12T13:27:03Z"}}, {"model": "planetarium.showsession", "pk": 9, "fields": {"astronomy_show": 10, "planetarium_dome": 1, "show_time": "2024-09-11T13:27:16Z"}}, {"model": "planetarium.showsession", "pk": 10, "fields": {"astronomy_show": 7, "planetarium_dome": 5, "show_time": "2024-06-14T03:00:00Z"}}, {"model": "planetarium.showsession", "pk": 11, "fields": {"astronomy_show": 5, "planetarium_dome": 6, "show_time": "2024-07-19T15:00:00Z"}}, {"model": "planetarium.showsession", "pk": 12, "fields": {"astronomy_show": 12, "planetarium_dome": 2, "show_time": "2024-04-16T21:00:00Z"}}, {"model": "planetarium.reservation", "pk": 1, "fields": {"created_at": "2023-12-11T14:29:04.964Z", "user": 2}}, {"model": "planetarium.reservation", "pk": 2, "fields": {"created_at": "2023-12-11T14:29:06.519Z", "user": 5}}, {"model": "planetarium.reservation", "pk": 3, "fields": {"created_at": "2023-12-11T14:29:07.740Z", "user": 2}}, {"model": "planetarium.reservation", "pk": 4, "fields": {"created_at": "2023-12-11T14:29:08.890Z", "user": 1}}, {"model": "planetarium.reservation", "pk": 5, "fields": {"created_at": "2023-12-11T14:29:09.982Z", "user": 4}}, {"model": "planetarium.reservation", "pk": 6, "fields": {"created_at": "2023-12-11T14:29:12.076Z", "user": 3}}, {"model": "planetarium.reservation", "pk": 7, "fields": {"created_at": "2023-12-11T14:29:13.388Z", "user": 4}}, {"model": "planetarium.reservation", "pk": 8, "fields": {"created_at": "2023-12-11T14:29:14.460Z", "user": 1}}, {"model": "planetarium.reservation", "pk": 9, "fields": {"created_at": "2023-12-11T14:29:15.956Z", "user": 5}}, {"model": "planetarium.reservation", "pk": 10, "fields": {"created_at": "2023-12-11T14:29:17.161Z", "user": 2}}, {"model": "planetarium.reservation", "pk": 11, "fields": {"created_at": "2023-12-11T14:29:18.333Z", "user": 3}}, {"model": "planetarium.ticket", "pk": 1, "fields": {"row": 3, "seat": 2, "show_session": 6, "reservation": 11}}, {"model": "planetarium.ticket", "pk": 2, "fields": {"row": 3, "seat": 4, "show_session": 7, "reservation": 10}}, {"model": "planetarium.ticket", "pk": 3, "fields": {"row": 4, "seat": 3, "show_session": 4, "reservation": 9}}, {"model": "planetarium.ticket", "pk": 4, "fields": {"row": 3, "seat": 4, "show_session": 8, "reservation": 8}}, {"model": "planetarium.ticket", "pk": 5, "fields": {"row": 3, "seat": 5, "show_session": 11, "reservation": 7}}, {"model": "planetarium.ticket", "pk": 6, "fields": {"row": 3, "seat": 4, "show_session": 10, "reservation": 6}}, {"model": "planetarium.ticket", "pk": 7, "fields": {"row": 2, "seat": 5, "show_session": 11, "reservation": 5}}, {"model": "planetarium.ticket", "pk": 8, "fields": {"row": 3, "seat": 3, "show_session": 12, "reservation": 5}}, {"model": "planetarium.ticket", "pk": 9, "fields": {"row": 5, "seat": 3, "show_session": 2, "reservation": 1}}, {"model": "planetarium.ticket", "pk": 10, "fields": {"row": 3, "seat": 2, "show_session": 5, "reservation": 2}}, {"model": "planetarium.ticket", "pk": 11, "fields": {"row": 1, "seat": 1, "show_session": 1, "reservation": 3}}, {"model": "planetarium.ticket", "pk": 12, "fields": {"row": 1, "seat": 2, "show_session": 3, "reservation": 4}}]
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2023-12-11T14:11:40.778Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "1",
+      "object_repr": "FullAdmin",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2023-12-11T14:11:59.785Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "Jonson",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2023-12-11T14:12:21.483Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "Patrion",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2023-12-11T14:12:38.337Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "4",
+      "object_repr": "Karavai",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2023-12-11T14:12:52.425Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "5",
+      "object_repr": "BBQ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2023-12-11T14:13:03.756Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "5",
+      "object_repr": "BBQ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2023-12-11T14:13:13.518Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "Jonson",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2023-12-11T14:13:25.504Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "4",
+      "object_repr": "Karavai",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2023-12-11T14:13:32.522Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "Patrion",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2023-12-11T14:14:30.528Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Time Travel Through the Cosmos",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2023-12-11T14:14:35.457Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Exoplanet Expeditions",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2023-12-11T14:14:42.156Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "Mysteries of the Dark Matter",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2023-12-11T14:14:47.168Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "Celestial Wonders for Beginners",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2023-12-11T14:14:51.712Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "Alien Worlds: Life Beyond Earth",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2023-12-11T14:14:56.836Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "6",
+      "object_repr": "The Art of Astrophotography",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2023-12-11T14:15:00.913Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "7",
+      "object_repr": "Cosmic Phenomena Unleashed",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2023-12-11T14:15:05.961Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "8",
+      "object_repr": "Space Colonization: Our Future Beyond Earth",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2023-12-11T14:15:09.986Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "9",
+      "object_repr": "The Science of Sci-Fi",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2023-12-11T14:15:15.089Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "10",
+      "object_repr": "The Solar System Odyssey",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2023-12-11T14:15:19.953Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "11",
+      "object_repr": "Astronomy and Mythology",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2023-12-11T14:15:24.498Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "12",
+      "object_repr": "The Great Observatories",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2023-12-11T14:16:49.010Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "Alien Worlds: Life Beyond Earth",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2023-12-11T14:16:49.015Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "11",
+      "object_repr": "Astronomy and Mythology",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2023-12-11T14:16:49.020Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "Celestial Wonders for Beginners",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2023-12-11T14:16:49.025Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "7",
+      "object_repr": "Cosmic Phenomena Unleashed",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2023-12-11T14:16:49.030Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Exoplanet Expeditions",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2023-12-11T14:16:49.035Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "Mysteries of the Dark Matter",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2023-12-11T14:16:49.040Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "8",
+      "object_repr": "Space Colonization: Our Future Beyond Earth",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2023-12-11T14:16:49.046Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "6",
+      "object_repr": "The Art of Astrophotography",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2023-12-11T14:16:49.051Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "12",
+      "object_repr": "The Great Observatories",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2023-12-11T14:16:49.056Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "9",
+      "object_repr": "The Science of Sci-Fi",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2023-12-11T14:16:49.061Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "10",
+      "object_repr": "The Solar System Odyssey",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2023-12-11T14:16:49.067Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Time Travel Through the Cosmos",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2023-12-11T14:17:36.836Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "13",
+      "object_repr": "The theme revolves around the exploration of the broader universe, highlighting the diversity and wo",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2023-12-11T14:17:39.983Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Celestial Odyssey",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2023-12-11T14:18:09.879Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Exoplanet Explorers",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2023-12-11T14:18:21.175Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "13",
+      "object_repr": "Nature",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2023-12-11T14:18:37.426Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "14",
+      "object_repr": "Knowledge",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2023-12-11T14:18:48.055Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "15",
+      "object_repr": "Development",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2023-12-11T14:19:00.687Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "16",
+      "object_repr": "Research",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2023-12-11T14:19:14.895Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "17",
+      "object_repr": "Experiment",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2023-12-11T14:19:23.384Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "18",
+      "object_repr": "Show",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2023-12-11T14:19:30.628Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "19",
+      "object_repr": "Action",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2023-12-11T14:20:10.908Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Celestial Odyssey",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2023-12-11T14:20:26.180Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Chronicles of the Cosmos",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2023-12-11T14:20:37.523Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Beyond the Event Horizon",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2023-12-11T14:20:48.020Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "The Lunar Symphony",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2023-12-11T14:20:56.460Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Alien Worlds Unveiled",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+      "action_time": "2023-12-11T14:21:07.184Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Stargazers' Safari",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+      "action_time": "2023-12-11T14:21:15.985Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "Eclipsed Wonders",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+      "action_time": "2023-12-11T14:21:24.953Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Galactic Architects",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+      "action_time": "2023-12-11T14:21:35.418Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "Myths of the Night Sky",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+      "action_time": "2023-12-11T14:21:46.193Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "11",
+      "object_repr": "Alien Worlds: Life Beyond Earth",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+      "action_time": "2023-12-11T14:21:53.657Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "12",
+      "object_repr": "Time Travel Through the Cosmos",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+      "action_time": "2023-12-11T14:24:25.233Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "CosmicSphere",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+      "action_time": "2023-12-11T14:24:29.472Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "StellarDome",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+      "action_time": "2023-12-11T14:24:37.673Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "AstroVault",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+      "action_time": "2023-12-11T14:24:43.656Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "CelestialDome",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+      "action_time": "2023-12-11T14:24:56.007Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "GalaxyGlobe",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+      "action_time": "2023-12-11T14:25:03.946Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "NebulaDome",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+      "action_time": "2023-12-11T14:25:33.864Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "Alien Worlds Unveiled",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+      "action_time": "2023-12-11T14:25:44.304Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "Alien Worlds: Life Beyond Earth",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+      "action_time": "2023-12-11T14:25:53.248Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "Beyond the Event Horizon",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+      "action_time": "2023-12-11T14:26:07.705Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "Celestial Odyssey",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+      "action_time": "2023-12-11T14:26:22.593Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "5",
+      "object_repr": "Chronicles of the Cosmos",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+      "action_time": "2023-12-11T14:26:40.178Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "6",
+      "object_repr": "Eclipsed Wonders",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+      "action_time": "2023-12-11T14:26:53.250Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "7",
+      "object_repr": "Exoplanet Explorers",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+      "action_time": "2023-12-11T14:27:04.874Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "8",
+      "object_repr": "Galactic Architects",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+      "action_time": "2023-12-11T14:27:16.706Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "9",
+      "object_repr": "Myths of the Night Sky",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+      "action_time": "2023-12-11T14:27:28.899Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "10",
+      "object_repr": "Stargazers' Safari",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+      "action_time": "2023-12-11T14:27:38.087Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "11",
+      "object_repr": "The Lunar Symphony",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+      "action_time": "2023-12-11T14:27:49.164Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "12",
+      "object_repr": "Time Travel Through the Cosmos",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+      "action_time": "2023-12-11T14:29:04.965Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Svat Zaghaikevich - Mon Dec 11 14:29:04 2023",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+      "action_time": "2023-12-11T14:29:06.520Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Jons Bo - Mon Dec 11 14:29:06 2023",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+      "action_time": "2023-12-11T14:29:07.740Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "Svat Zaghaikevich - Mon Dec 11 14:29:07 2023",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+      "action_time": "2023-12-11T14:29:08.891Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "Ivan Zolo - Mon Dec 11 14:29:08 2023",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+      "action_time": "2023-12-11T14:29:09.982Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "5",
+      "object_repr": "Vlad Valakas - Mon Dec 11 14:29:09 2023",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+      "action_time": "2023-12-11T14:29:12.078Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6",
+      "object_repr": "Peter Markins - Mon Dec 11 14:29:12 2023",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+      "action_time": "2023-12-11T14:29:13.389Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "7",
+      "object_repr": "Vlad Valakas - Mon Dec 11 14:29:13 2023",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+      "action_time": "2023-12-11T14:29:14.461Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "8",
+      "object_repr": "Ivan Zolo - Mon Dec 11 14:29:14 2023",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+      "action_time": "2023-12-11T14:29:15.958Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "9",
+      "object_repr": "Jons Bo - Mon Dec 11 14:29:15 2023",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+      "action_time": "2023-12-11T14:29:17.162Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "10",
+      "object_repr": "Svat Zaghaikevich - Mon Dec 11 14:29:17 2023",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+      "action_time": "2023-12-11T14:29:18.333Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "11",
+      "object_repr": "Peter Markins - Mon Dec 11 14:29:18 2023",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+      "action_time": "2023-12-11T14:29:28.752Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "1 - Markins Peter ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+      "action_time": "2023-12-11T14:29:33.212Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "2 - Zaghaikevich Svat ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+      "action_time": "2023-12-11T14:29:38.165Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "3 - Bo Jons ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+      "action_time": "2023-12-11T14:29:48.101Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "4 - Zolo Ivan ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+      "action_time": "2023-12-11T14:29:58.973Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "5 - Valakas Vlad ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+      "action_time": "2023-12-11T14:30:04.853Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "6",
+      "object_repr": "6 - Markins Peter ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+      "action_time": "2023-12-11T14:30:13.606Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "7",
+      "object_repr": "7 - Valakas Vlad ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+      "action_time": "2023-12-11T14:30:50.466Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "8",
+      "object_repr": "8 - Valakas Vlad ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+      "action_time": "2023-12-11T14:30:55.879Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "9",
+      "object_repr": "9 - Zaghaikevich Svat ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+      "action_time": "2023-12-11T14:31:04.559Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "10",
+      "object_repr": "10 - Bo Jons ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+      "action_time": "2023-12-11T14:31:12.679Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "11",
+      "object_repr": "11 - Zaghaikevich Svat ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+      "action_time": "2023-12-11T14:31:19.063Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "12",
+      "object_repr": "12 - Zolo Ivan ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add astronomy show",
+      "content_type": 7,
+      "codename": "add_astronomyshow"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change astronomy show",
+      "content_type": 7,
+      "codename": "change_astronomyshow"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete astronomy show",
+      "content_type": 7,
+      "codename": "delete_astronomyshow"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view astronomy show",
+      "content_type": 7,
+      "codename": "view_astronomyshow"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add planetarium dome",
+      "content_type": 8,
+      "codename": "add_planetariumdome"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change planetarium dome",
+      "content_type": 8,
+      "codename": "change_planetariumdome"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete planetarium dome",
+      "content_type": 8,
+      "codename": "delete_planetariumdome"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view planetarium dome",
+      "content_type": 8,
+      "codename": "view_planetariumdome"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add show theme",
+      "content_type": 9,
+      "codename": "add_showtheme"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change show theme",
+      "content_type": 9,
+      "codename": "change_showtheme"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete show theme",
+      "content_type": 9,
+      "codename": "delete_showtheme"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view show theme",
+      "content_type": 9,
+      "codename": "view_showtheme"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add reservation",
+      "content_type": 10,
+      "codename": "add_reservation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change reservation",
+      "content_type": 10,
+      "codename": "change_reservation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete reservation",
+      "content_type": 10,
+      "codename": "delete_reservation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view reservation",
+      "content_type": 10,
+      "codename": "view_reservation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add show session",
+      "content_type": 11,
+      "codename": "add_showsession"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change show session",
+      "content_type": 11,
+      "codename": "change_showsession"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete show session",
+      "content_type": 11,
+      "codename": "delete_showsession"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view show session",
+      "content_type": 11,
+      "codename": "view_showsession"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add ticket",
+      "content_type": 12,
+      "codename": "add_ticket"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change ticket",
+      "content_type": 12,
+      "codename": "change_ticket"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete ticket",
+      "content_type": 12,
+      "codename": "delete_ticket"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view ticket",
+      "content_type": 12,
+      "codename": "view_ticket"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$QyGhkraprmNDqTFXr8lmMc$ILhVVDibvrJ+TuZRMEwSXpwrwgofXwfhZ4BRgODEDts=",
+      "last_login": "2023-12-11T15:30:07.974Z",
+      "is_superuser": true,
+      "username": "FullAdmin",
+      "first_name": "Ivan",
+      "last_name": "Zolo",
+      "email": "admin@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-12-11T14:11:12Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$Ps9XTFyPnl2RWwXUiVG8of$F8QSzQnIhObfssiKq4Iprbs1hC5l/FUo/cRbzODjGZU=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Jonson",
+      "first_name": "Svat",
+      "last_name": "Zaghaikevich",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-12-11T14:11:59Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$WsdBJrYwI2zZE1axku9Wpe$jhP0PICp6tInjdhqJ3k8P6FN+hSUKty4GYVW1tKfqaI=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Patrion",
+      "first_name": "Peter",
+      "last_name": "Markins",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-12-11T14:12:21Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$zC8YUhTVfWPuXJ5KXnZAy0$cL9ms9srTlZ3wAiRvN9c8Q/VDMFbLElk79MyFf2UQzY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Karavai",
+      "first_name": "Vlad",
+      "last_name": "Valakas",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-12-11T14:12:38Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$lfjIRzyxowVW591zmdu9lD$U0sKpufxqyjJVnLsO2NrNCBCymG/bA7UJ3p7OVkuuS8=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "BBQ",
+      "first_name": "Jons",
+      "last_name": "Bo",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-12-11T14:12:52Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "planetarium",
+      "model": "astronomyshow"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "planetarium",
+      "model": "planetariumdome"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "planetarium",
+      "model": "showtheme"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "planetarium",
+      "model": "reservation"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "planetarium",
+      "model": "showsession"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+      "app_label": "planetarium",
+      "model": "ticket"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "30hk5aw5oobayxesv871n4hlkzaphadc",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAUBf-FtSFACVCX7v0GcrkPqRqalHZl_Hdt0oVuz8ycl8qwrTVvnZc8kTorq06_WwF8cNsB3aHdZo1zW5ep6F3RB-36OhM_L4f7d1Ch129tYiQTDLMnQwExJGcBeXBA6ASSjCUJ2BLZUbJsBsLgnJfRk0T0ot4fAKI46w:1rCiER:anKMfqflBqCozyN4JXyGUhKuop4bxY0RTFK0SugZ9_w",
+      "expire_date": "2023-12-25T15:30:07.979Z"
+    }
+  },
+  {
+    "model": "planetarium.showtheme",
+    "pk": 13,
+    "fields": {
+      "name": "Nature"
+    }
+  },
+  {
+    "model": "planetarium.showtheme",
+    "pk": 14,
+    "fields": {
+      "name": "Knowledge"
+    }
+  },
+  {
+    "model": "planetarium.showtheme",
+    "pk": 15,
+    "fields": {
+      "name": "Development"
+    }
+  },
+  {
+    "model": "planetarium.showtheme",
+    "pk": 16,
+    "fields": {
+      "name": "Research"
+    }
+  },
+  {
+    "model": "planetarium.showtheme",
+    "pk": 17,
+    "fields": {
+      "name": "Experiment"
+    }
+  },
+  {
+    "model": "planetarium.showtheme",
+    "pk": 18,
+    "fields": {
+      "name": "Show"
+    }
+  },
+  {
+    "model": "planetarium.showtheme",
+    "pk": 19,
+    "fields": {
+      "name": "Action"
+    }
+  },
+  {
+    "model": "planetarium.astronomyshow",
+    "pk": 1,
+    "fields": {
+      "title": "Celestial Odyssey",
+      "description": "Embark on a mesmerizing journey through the vastness of the cosmos, exploring the beauty and mysteries of distant galaxies, nebulae, and cosmic phenomena.",
+      "show_theme": [
+        13
+      ]
+    }
+  },
+  {
+    "model": "planetarium.astronomyshow",
+    "pk": 2,
+    "fields": {
+      "title": "Exoplanet Explorers",
+      "description": "Join our cosmic expedition as we travel beyond our solar system to discover and marvel at the diversity of exoplanets, each with its own unique features and potential for life.",
+      "show_theme": [
+        13
+      ]
+    }
+  },
+  {
+    "model": "planetarium.astronomyshow",
+    "pk": 3,
+    "fields": {
+      "title": "Chronicles of the Cosmos",
+      "description": "Dive deep into the annals of space and time, unraveling the captivating stories of celestial objects, from the birth of stars to the cataclysmic events that shape the universe.",
+      "show_theme": [
+        15,
+        16
+      ]
+    }
+  },
+  {
+    "model": "planetarium.astronomyshow",
+    "pk": 4,
+    "fields": {
+      "title": "Beyond the Event Horizon",
+      "description": "Venture into the mysterious realm of black holes and explore the mind-bending science behind these cosmic enigmas, from their formation to their gravitational dance with surrounding matter.",
+      "show_theme": [
+        15,
+        17,
+        16
+      ]
+    }
+  },
+  {
+    "model": "planetarium.astronomyshow",
+    "pk": 5,
+    "fields": {
+      "title": "The Lunar Symphony",
+      "description": "Experience the enchanting allure of Earth's moon in a poetic journey that explores its phases, impact on Earth, and the historical and cultural significance it holds for humanity.",
+      "show_theme": [
+        19,
+        18
+      ]
+    }
+  },
+  {
+    "model": "planetarium.astronomyshow",
+    "pk": 6,
+    "fields": {
+      "title": "Alien Worlds Unveiled",
+      "description": "Take a speculative look at potential extraterrestrial habitats, discussing the science behind the search for habitable exoplanets and the conditions necessary for life beyond our solar system.",
+      "show_theme": [
+        17
+      ]
+    }
+  },
+  {
+    "model": "planetarium.astronomyshow",
+    "pk": 7,
+    "fields": {
+      "title": "Stargazers' Safari",
+      "description": "Embark on a celestial safari, navigating the night sky to discover constellations, planets, and other celestial wonders. Learn the art of stargazing and the stories behind the stars.",
+      "show_theme": [
+        19,
+        14
+      ]
+    }
+  },
+  {
+    "model": "planetarium.astronomyshow",
+    "pk": 8,
+    "fields": {
+      "title": "Eclipsed Wonders",
+      "description": "Witness the awe-inspiring beauty of solar and lunar eclipses, unraveling the celestial mechanics that create these rare cosmic events and exploring their cultural significance throughout history.",
+      "show_theme": [
+        15
+      ]
+    }
+  },
+  {
+    "model": "planetarium.astronomyshow",
+    "pk": 9,
+    "fields": {
+      "title": "Galactic Architects",
+      "description": "Explore the potential future of space colonization and human settlement on other planets, delving into the science, technology, and challenges involved in turning celestial bodies into our next homes.",
+      "show_theme": [
+        19
+      ]
+    }
+  },
+  {
+    "model": "planetarium.astronomyshow",
+    "pk": 10,
+    "fields": {
+      "title": "Myths of the Night Sky",
+      "description": "Unearth the ancient myths and legends woven into the constellations, planets, and other celestial objects, bridging the gap between astronomy and the rich tapestry of human storytelling.",
+      "show_theme": [
+        19,
+        15,
+        14,
+        18
+      ]
+    }
+  },
+  {
+    "model": "planetarium.astronomyshow",
+    "pk": 11,
+    "fields": {
+      "title": "Alien Worlds: Life Beyond Earth",
+      "description": "Speculate on the possibility of extraterrestrial life. Explore the conditions required for life, potential exoplanets, and the search for biosignatures.",
+      "show_theme": [
+        16
+      ]
+    }
+  },
+  {
+    "model": "planetarium.astronomyshow",
+    "pk": 12,
+    "fields": {
+      "title": "Time Travel Through the Cosmos",
+      "description": "Explore the universe's history and future, taking the audience on a journey through different cosmic eras, from the formation of stars to the potential fate of the universe.",
+      "show_theme": [
+        15
+      ]
+    }
+  },
+  {
+    "model": "planetarium.planetariumdome",
+    "pk": 1,
+    "fields": {
+      "name": "CosmicSphere",
+      "rows": 5,
+      "seats_in_row": 34
+    }
+  },
+  {
+    "model": "planetarium.planetariumdome",
+    "pk": 2,
+    "fields": {
+      "name": "StellarDome",
+      "rows": 4,
+      "seats_in_row": 4
+    }
+  },
+  {
+    "model": "planetarium.planetariumdome",
+    "pk": 3,
+    "fields": {
+      "name": "AstroVault",
+      "rows": 32,
+      "seats_in_row": 10
+    }
+  },
+  {
+    "model": "planetarium.planetariumdome",
+    "pk": 4,
+    "fields": {
+      "name": "CelestialDome",
+      "rows": 5,
+      "seats_in_row": 11
+    }
+  },
+  {
+    "model": "planetarium.planetariumdome",
+    "pk": 5,
+    "fields": {
+      "name": "GalaxyGlobe",
+      "rows": 6,
+      "seats_in_row": 8
+    }
+  },
+  {
+    "model": "planetarium.planetariumdome",
+    "pk": 6,
+    "fields": {
+      "name": "NebulaDome",
+      "rows": 3,
+      "seats_in_row": 13
+    }
+  },
+  {
+    "model": "planetarium.showsession",
+    "pk": 1,
+    "fields": {
+      "astronomy_show": 6,
+      "planetarium_dome": 3,
+      "show_time": "2024-03-07T04:00:00Z"
+    }
+  },
+  {
+    "model": "planetarium.showsession",
+    "pk": 2,
+    "fields": {
+      "astronomy_show": 11,
+      "planetarium_dome": 4,
+      "show_time": "2024-02-08T14:25:42Z"
+    }
+  },
+  {
+    "model": "planetarium.showsession",
+    "pk": 3,
+    "fields": {
+      "astronomy_show": 4,
+      "planetarium_dome": 1,
+      "show_time": "2024-03-28T14:25:52Z"
+    }
+  },
+  {
+    "model": "planetarium.showsession",
+    "pk": 4,
+    "fields": {
+      "astronomy_show": 1,
+      "planetarium_dome": 5,
+      "show_time": "2024-10-10T13:26:04Z"
+    }
+  },
+  {
+    "model": "planetarium.showsession",
+    "pk": 5,
+    "fields": {
+      "astronomy_show": 3,
+      "planetarium_dome": 6,
+      "show_time": "2024-02-21T14:26:21Z"
+    }
+  },
+  {
+    "model": "planetarium.showsession",
+    "pk": 6,
+    "fields": {
+      "astronomy_show": 8,
+      "planetarium_dome": 2,
+      "show_time": "2025-12-11T14:26:39Z"
+    }
+  },
+  {
+    "model": "planetarium.showsession",
+    "pk": 7,
+    "fields": {
+      "astronomy_show": 2,
+      "planetarium_dome": 3,
+      "show_time": "2024-10-24T13:26:52Z"
+    }
+  },
+  {
+    "model": "planetarium.showsession",
+    "pk": 8,
+    "fields": {
+      "astronomy_show": 9,
+      "planetarium_dome": 4,
+      "show_time": "2024-09-12T13:27:03Z"
+    }
+  },
+  {
+    "model": "planetarium.showsession",
+    "pk": 9,
+    "fields": {
+      "astronomy_show": 10,
+      "planetarium_dome": 1,
+      "show_time": "2024-09-11T13:27:16Z"
+    }
+  },
+  {
+    "model": "planetarium.showsession",
+    "pk": 10,
+    "fields": {
+      "astronomy_show": 7,
+      "planetarium_dome": 5,
+      "show_time": "2024-06-14T03:00:00Z"
+    }
+  },
+  {
+    "model": "planetarium.showsession",
+    "pk": 11,
+    "fields": {
+      "astronomy_show": 5,
+      "planetarium_dome": 6,
+      "show_time": "2024-07-19T15:00:00Z"
+    }
+  },
+  {
+    "model": "planetarium.showsession",
+    "pk": 12,
+    "fields": {
+      "astronomy_show": 12,
+      "planetarium_dome": 2,
+      "show_time": "2024-04-16T21:00:00Z"
+    }
+  },
+  {
+    "model": "planetarium.reservation",
+    "pk": 1,
+    "fields": {
+      "created_at": "2023-12-11T14:29:04.964Z",
+      "user": 2
+    }
+  },
+  {
+    "model": "planetarium.reservation",
+    "pk": 2,
+    "fields": {
+      "created_at": "2023-12-11T14:29:06.519Z",
+      "user": 5
+    }
+  },
+  {
+    "model": "planetarium.reservation",
+    "pk": 3,
+    "fields": {
+      "created_at": "2023-12-11T14:29:07.740Z",
+      "user": 2
+    }
+  },
+  {
+    "model": "planetarium.reservation",
+    "pk": 4,
+    "fields": {
+      "created_at": "2023-12-11T14:29:08.890Z",
+      "user": 1
+    }
+  },
+  {
+    "model": "planetarium.reservation",
+    "pk": 5,
+    "fields": {
+      "created_at": "2023-12-11T14:29:09.982Z",
+      "user": 4
+    }
+  },
+  {
+    "model": "planetarium.reservation",
+    "pk": 6,
+    "fields": {
+      "created_at": "2023-12-11T14:29:12.076Z",
+      "user": 3
+    }
+  },
+  {
+    "model": "planetarium.reservation",
+    "pk": 7,
+    "fields": {
+      "created_at": "2023-12-11T14:29:13.388Z",
+      "user": 4
+    }
+  },
+  {
+    "model": "planetarium.reservation",
+    "pk": 8,
+    "fields": {
+      "created_at": "2023-12-11T14:29:14.460Z",
+      "user": 1
+    }
+  },
+  {
+    "model": "planetarium.reservation",
+    "pk": 9,
+    "fields": {
+      "created_at": "2023-12-11T14:29:15.956Z",
+      "user": 5
+    }
+  },
+  {
+    "model": "planetarium.reservation",
+    "pk": 10,
+    "fields": {
+      "created_at": "2023-12-11T14:29:17.161Z",
+      "user": 2
+    }
+  },
+  {
+    "model": "planetarium.reservation",
+    "pk": 11,
+    "fields": {
+      "created_at": "2023-12-11T14:29:18.333Z",
+      "user": 3
+    }
+  },
+  {
+    "model": "planetarium.ticket",
+    "pk": 1,
+    "fields": {
+      "row": 3,
+      "seat": 2,
+      "show_session": 6,
+      "reservation": 11
+    }
+  },
+  {
+    "model": "planetarium.ticket",
+    "pk": 2,
+    "fields": {
+      "row": 3,
+      "seat": 4,
+      "show_session": 7,
+      "reservation": 10
+    }
+  },
+  {
+    "model": "planetarium.ticket",
+    "pk": 3,
+    "fields": {
+      "row": 4,
+      "seat": 3,
+      "show_session": 4,
+      "reservation": 9
+    }
+  },
+  {
+    "model": "planetarium.ticket",
+    "pk": 4,
+    "fields": {
+      "row": 3,
+      "seat": 4,
+      "show_session": 8,
+      "reservation": 8
+    }
+  },
+  {
+    "model": "planetarium.ticket",
+    "pk": 5,
+    "fields": {
+      "row": 3,
+      "seat": 5,
+      "show_session": 11,
+      "reservation": 7
+    }
+  },
+  {
+    "model": "planetarium.ticket",
+    "pk": 6,
+    "fields": {
+      "row": 3,
+      "seat": 4,
+      "show_session": 10,
+      "reservation": 6
+    }
+  },
+  {
+    "model": "planetarium.ticket",
+    "pk": 7,
+    "fields": {
+      "row": 2,
+      "seat": 5,
+      "show_session": 11,
+      "reservation": 5
+    }
+  },
+  {
+    "model": "planetarium.ticket",
+    "pk": 8,
+    "fields": {
+      "row": 3,
+      "seat": 3,
+      "show_session": 12,
+      "reservation": 5
+    }
+  },
+  {
+    "model": "planetarium.ticket",
+    "pk": 9,
+    "fields": {
+      "row": 5,
+      "seat": 3,
+      "show_session": 2,
+      "reservation": 1
+    }
+  },
+  {
+    "model": "planetarium.ticket",
+    "pk": 10,
+    "fields": {
+      "row": 3,
+      "seat": 2,
+      "show_session": 5,
+      "reservation": 2
+    }
+  },
+  {
+    "model": "planetarium.ticket",
+    "pk": 11,
+    "fields": {
+      "row": 1,
+      "seat": 1,
+      "show_session": 1,
+      "reservation": 3
+    }
+  },
+  {
+    "model": "planetarium.ticket",
+    "pk": 12,
+    "fields": {
+      "row": 1,
+      "seat": 2,
+      "show_session": 3,
+      "reservation": 4
+    }
+  }
+]
